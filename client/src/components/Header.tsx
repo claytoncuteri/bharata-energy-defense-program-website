@@ -9,7 +9,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import letterheadImage from "@assets/mother sonia gandhi world welfare committee letter head_1759626979368.png";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,15 +18,6 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      {/* Letterhead Watermark */}
-      <div className="absolute inset-0 opacity-[0.08] pointer-events-none overflow-hidden">
-        <img
-          src={letterheadImage}
-          alt=""
-          className="w-full h-full object-cover"
-        />
-      </div>
-
       <div className="container mx-auto px-4 relative">
         <div className="flex h-20 items-center justify-between">
           {/* Logo and Title */}
