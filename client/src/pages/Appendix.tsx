@@ -1,31 +1,30 @@
 import ImageGallery from "@/components/ImageGallery";
 
 export default function Appendix() {
-  // TODO: Replace with actual PDF extracted images
   const installations = [
     {
-      src: "/placeholder-chitradurga.jpg",
-      caption: "Chitradurga Fort Installation - Ancient spiritual energy center fortified with modern yagna practices"
+      src: "/attached_assets/chitradurga_fort.png",
+      caption: "Reinstallation of Sri Veerabhadra Swami within the fourth precinct of Chitradurga fort"
     },
     {
-      src: "/placeholder-pativrata.jpg",
-      caption: "Pancha Pativrata Shiromanis Temple - Sacred site honoring divine feminine energy and devotion"
+      src: "/attached_assets/pancha_pativrata.png",
+      caption: "Installation of Pancha Pativrata Shiromanis at Vaddee kere village of Chitradurga district. This and the following yagna brought torrential rains to Chitradurga district which was drought ridden for 13 continuous years"
     },
     {
-      src: "/placeholder-hebbya.jpg",
-      caption: "Hebbya Temple Complex - Spiritual epicenter where Sri Krishna's divine energy resides"
+      src: "/attached_assets/hebbya_bhoomi_puja.png",
+      caption: "Bhoomi puja of Matha Gandhareshwari temple at Hebbya, Mysuru was performed by Sri Vishwesha Thirtha swami"
     },
     {
-      src: "/placeholder-border.jpg",
-      caption: "Border Yagna Sites - Strategic spiritual defense installations protecting Bharata's frontiers"
+      src: "/attached_assets/border_yagna.png",
+      caption: "Rajasuya Maha Yagna was conducted at 8 places bordering India to protect our nation from the threats of neighboring hostile countries and terrorists"
     },
     {
-      src: "/placeholder-shivling.jpg",
-      caption: "Shiva Lingha Consecrations - 54 installations across national and international locations"
+      src: "/attached_assets/army_camps.png",
+      caption: "Rajasuya Maha Yagna at army camps in Ladakh, Tawang and Kargil for the well being of our soldiers at the borders and create an energy shield to protect the borders from enemy attacks"
     },
     {
-      src: "/placeholder-meditation.jpg",
-      caption: "Mass Meditation Programs - Collective consciousness activation for global peace"
+      src: "/attached_assets/jammu_temple.png",
+      caption: "Amithaab ji and his team built a temple of Adi Rakshana Jwala Narasimhini Prathyangire and Adi Rakshana Jwala Narasimha in Jammu"
     }
   ];
 
@@ -44,12 +43,11 @@ export default function Appendix() {
 
           <div className="mt-16 bg-card rounded-lg p-8">
             <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-installations-title">
-              About These Installations
+              Installations and Consecrations
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-installations-description">
-              Each installation represents a carefully selected energy vortex point based on ancient Vedic calculations 
-              and divine guidance. These locations were chosen for their strategic importance in the cosmic energy grid 
-              that protects Bharata and influences global consciousness.
+              These installations and consecrations were conducted across Karnataka in congregation with WE Trust, 
+              another spiritual-mystic organization dedicated to heal mother earth.
             </p>
             <p className="text-muted-foreground leading-relaxed" data-testid="text-installations-significance">
               From historical fortifications like Chitradurga to sacred temple complexes at Hebbya, each site serves 

@@ -58,6 +58,26 @@ export default function PastTimeline() {
       title: "J&K Temple Construction",
       description: "Amithaab ji and his team visited Jammu & Kashmir in April and built a temple of Adi Rakshana Jwala Narasimhini Prathyangire and Adi Rakshana Jwala Narasimha at Dalair in Jammu. The temple was built on a site previously destroyed by a terror attack. He also met with J&K police officers and discussed issues faced by the natives.",
     },
+    {
+      year: "2016",
+      title: "Thailand Visit & Shiva Lingha Installations",
+      description: "Mr. Amithaab visited Thailand for his energy programs and visited places that support him in his mission. Later, by the guidance of the cosmos, he started a spiritual project to install Shiva Linghas that are formed naturally in Narmada river bed due to the turbulent flow. The Shiva Linghas were installed at different places in the states of Karnataka, Tamil Nadu, Maharashtra, New Delhi and Uttar Pradesh. Around 20 Shiva Linghas were installed in that year. He also visited Elephanta caves in Mumbai, Maharashtra and installed the Atma lingh of Adi Rakshana Gayathri Devi Prathyangira and Adi Vishwakarma deva.",
+    },
+    {
+      year: "2017",
+      title: "Cambodia Angkor Wat Installation & PMO Visit",
+      description: "Mr. Amithaab and his team visited Cambodia and installed Adi Rakshana Aghora Pretheshwari Prathyangire and Adi Rakshana Aghora Pretheshwara atma lingh at UNESCO site of Angkor Wat temple under special permission. This served as a major energy breakthrough in the mission. A mysterious cloud formed over the site of Angkor Wat soon after the installation as if an energy portal opened and positive cosmos entered the site. He also visited New Delhi and installed Atma lingh of Adi Rakshana Subadra Prathyangire and Adi Rakshana Arjuna, and visited Prime Minister's Office (PMO) and submitted a letter seeking permission and support to install idols and Shiva Linghas at sensitive and critical energy spots. Around 10 more Shiva Linghas were installed that year.",
+    },
+    {
+      year: "2018",
+      title: "Varanasi Pilgrimage & Western Ghats Installations",
+      description: "In April 2018, Mr. Amithaab and team visited Varanasi, Uttar Pradesh and installed the Shiva Lingha at the sacred pilgrimage. Around 14 more Shiva Linghas were installed in the year 2018. The installations were carried out in the hilly regions of Western ghats. The team conducted various fire rituals with different Yantras (formations) of Rajasuya Maha Yagna to channel different frequencies of Cosmos as per requirement of application.",
+    },
+    {
+      year: "2019",
+      title: "Dhana Lakshmi Installation & Inter Faith Temple Plan",
+      description: "Mr. Amithaab and his team installed Adi Rakshana Dhana Lakshmi Prathyangira idol in Mysuru on 15th February 2019. Amithaab ji and team has been planning to build an Inter faith temple at his site in Hebbya, Mysuru to bestow peace and harmony among all religions and bless everyone to live together peacefully irrespective of Religion, Race, Gender, Caste and Creed. The temple would house gods and goddesses of different religions and a prayer hall. The idols required for the Inter faith temple have already been carved out and are waiting to be installed at Hebbya. However, the project has stopped due to lack of financial support and various local hurdles. The 13 year legacy of unstopped Rajasuya Maha Yagna and hard work is now difficult to continue with insufficient financial help.",
+    },
   ];
 
   return (
