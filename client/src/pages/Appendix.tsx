@@ -1,29 +1,35 @@
 import ImageGallery from "@/components/ImageGallery";
+import chitradurgaFort from "@assets/chitradurga_fort.png";
+import panchaPativrata from "@assets/pancha_pativrata.png";
+import hebbyaBhoomiPuja from "@assets/hebbya_bhoomi_puja.png";
+import borderYagna from "@assets/border_yagna.png";
+import armyCamps from "@assets/army_camps.png";
+import jammuTemple from "@assets/jammu_temple.png";
 
 export default function Appendix() {
   const installations = [
     {
-      src: "/attached_assets/chitradurga_fort.png",
+      src: chitradurgaFort,
       caption: "Reinstallation of Sri Veerabhadra Swami within the fourth precinct of Chitradurga fort"
     },
     {
-      src: "/attached_assets/pancha_pativrata.png",
+      src: panchaPativrata,
       caption: "Installation of Pancha Pativrata Shiromanis at Vaddee kere village of Chitradurga district. This and the following yagna brought torrential rains to Chitradurga district which was drought ridden for 13 continuous years"
     },
     {
-      src: "/attached_assets/hebbya_bhoomi_puja.png",
+      src: hebbyaBhoomiPuja,
       caption: "Bhoomi puja of Matha Gandhareshwari temple at Hebbya, Mysuru was performed by Sri Vishwesha Thirtha swami"
     },
     {
-      src: "/attached_assets/border_yagna.png",
+      src: borderYagna,
       caption: "Rajasuya Maha Yagna was conducted at 8 places bordering India to protect our nation from the threats of neighboring hostile countries and terrorists"
     },
     {
-      src: "/attached_assets/army_camps.png",
+      src: armyCamps,
       caption: "Rajasuya Maha Yagna at army camps in Ladakh, Tawang and Kargil for the well being of our soldiers at the borders and create an energy shield to protect the borders from enemy attacks"
     },
     {
-      src: "/attached_assets/jammu_temple.png",
+      src: jammuTemple,
       caption: "Amithaab ji and his team built a temple of Adi Rakshana Jwala Narasimhini Prathyangire and Adi Rakshana Jwala Narasimha in Jammu"
     }
   ];
