@@ -1,0 +1,24 @@
+Build a professional, responsive multi-page website for promoting the "Bharata Energy Defence Program" proposal from the Chola Mandala Mahaa Samsthaanam. Use HTML, CSS (with Bootstrap for responsiveness), and JavaScript. Start a new HTML/CSS/JS Repl, but include a Python script to extract text and images from two uploaded PDFs: "Sonia Ghandi Letter Head.pdf" (use the first page logo as a header watermark) and "Chola Mandala Mahasamsthaanam without Letter head.pdf" (29-page main document, use the first page logo as the main site logo).
+
+Step 1: Extraction Script
+- Run a Python script using PyPDF2 to extract all text from both PDFs and save as a JSON file (e.g., { "pages": [{ "text": "...", "images": ["img1.jpg", ...] }] }).
+- Use pdf2image (install via pip if needed) to extract images from the main PDF and save them as JPGs in an "images/" folder. Name them sequentially (e.g., page1_img1.jpg). For the letterhead PDF, extract the first page image as "letterhead_logo.jpg". For the main PDF, extract the first page logo as "program_logo.jpg".
+- Output a summary JSON with key sections: executive_summary (page 2), past_timeline (pages 4-22, 2005-2019 highlights with images), upcoming_timeline (page 23, 8 planned activities), convenor_bio (pages 24-26, bio and family lineage with photos), cosmic_explanations (page 27, 2-3 paragraphs on spiritual tech, aliens as devathas, and yagnas as energy tools), appendix (page 28, 2-3 images of installations like Chitradurga fort with captions), message_to_reader (page 29, call-to-action on nuclear prevention and temple proposal).
+
+Step 2: Website Structure
+- Multi-page site with a consistent header and footer across all pages. Use "letterhead_logo.jpg" as a subtle background watermark in the header. Use "program_logo.jpg" as the main logo in the header, with title "Bharata Energy Defence Program" and subtitle "Proposal by Chola Mandala Mahaa Samsthaanam | Chief Convenor: Prince A Amithaab".
+- Navigation Menu (in header): Home, Executive Summary, Past Timeline, Upcoming Timeline, About Convenor, Cosmic Explanations, Appendix, Message, Downloads, Contact. Make it responsive with Bootstrap navbar.
+- Home Page (index.html): Condensed single-page overview from the original concept—hero section with brief intro from executive summary, 3-4 bullet points on vision/achievements/defense pledge, selected 4-6 timeline highlights (e.g., 2005 Rajasuya start, 2007 Beggar-free Mysuru, 2017 Angkor Wat), 1-2 images, call-to-action to explore sections or download PDFs.
+- Dedicated Pages (separate HTML files like executive.html, past.html, etc.):
+  - Executive Summary: Full text from executive_summary with 1-2 images.
+  - Past Timeline: Timeline cards or accordion for 2005-2019 events, with 4-6 highlights per sub-section (group by years if needed), extracted images, and newspaper clippings.
+  - Upcoming Timeline: Bullet list of the 8 planned activities (e.g., Rajasuya Yagna at Hebbya, inter-faith temple).
+  - About Convenor: Full bio of Prince A Amithaab, family lineage, with 2-3 photos.
+  - Cosmic Explanations: 2-3 paragraphs on spiritual tech, aliens as devathas, and yagnas as energy tools. Include 1 illustrative image.
+  - Appendix: 2-3 images of installations (e.g., Chitradurga fort, Pancha Pativrata Shiromanis) with captions.
+  - Message to Reader: Full call-to-action paragraph on nuclear prevention and temple proposal.
+  - Downloads: Buttons to download both PDFs (use <a href> links to the uploaded files), with brief descriptions.
+  - Contact: Simple form (name, email, phone (optional), message) using HTML form + JS for validation. On submit, log to console or use EmailJS (free tier) to send to a placeholder email (e.g., info@cholasamsthaanam.org). Style as a centered card.
+- Footer (on all pages): Copyright, social links (placeholders), and quick links to Downloads and Contact.
+
+Style: Earthy colors (gold/orange for Chola theme, blue for cosmic energy). Mobile-first, with image carousels for timelines and galleries. Keep text concise (200-300 words per page/section). Generate all code files: index.html, executive.html, past.html, upcoming.html, convenor.html, cosmic.html, appendix.html, message.html, downloads.html, contact.html, style.css, script.js, and the Python extractor (run.py). Host previewable via Replit.
