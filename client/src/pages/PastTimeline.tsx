@@ -1,7 +1,12 @@
 import TimelineAccordion from "@/components/TimelineAccordion";
+import hebbyaBhoomiPuja from "@assets/hebbya_bhoomi_puja.png";
+import borderYagna from "@assets/border_yagna.png";
+import armyCamps from "@assets/army_camps.png";
+import chitradurgaFort from "@assets/chitradurga_fort.png";
+import panchaPativrata from "@assets/pancha_pativrata.png";
+import jammuTemple from "@assets/jammu_temple.png";
 
 export default function PastTimeline() {
-  // TODO: Replace with actual PDF extracted data
   const timelineEvents = [
     {
       year: "2005",
@@ -22,6 +27,7 @@ export default function PastTimeline() {
       year: "2008",
       title: "Matha Gandhareshwari Temple & Secured Mysuru",
       description: "On 19th June 2008, bhoomi puja of Matha Gandhareshwari temple at Hebbya, Mysuru was performed by Sri Vishwesha Thirtha swami. According to divine cosmos, this temple must be built to neutralize Matha Gandhari's curse that threatens the universe with nuclear war. On 04th September 2008, a rally was conducted to promote installation of metal detectors and CCTV cameras in public places under 'Secured Mysuru' project. This was realized with installations in bus stands, train stations, tourist places and cinema halls, later inspiring similar projects across the nation.",
+      images: [hebbyaBhoomiPuja],
     },
     {
       year: "2009",
@@ -42,21 +48,25 @@ export default function PastTimeline() {
       year: "2012",
       title: "8-Point Border Protection & Temple Renovation",
       description: "Rajasuya Maha Yagna was conducted at 8 places bordering India to protect our nation from threats of neighboring hostile countries and terrorists: Bavali Matha mandir (Jammu), Kamakya (Assam), Adi Shakti temple (Kanchipuram), Indira point (Andaman & Nicobar), Kanyakumari (Tamil Nadu), Agatti Islands (Lakshadweep), Kannur (Kerala), and Har Siddhi Matha mandir (Dwaraka). The program ended with Rajasuya Maha Yagna at Chamundivanam, Mysuru. Mr. Amithaab also reconstructed and renovated the dilapidated Siddharameshwara temple at Hebbya at his own expense. Jeernoddhaara ceremony was conducted on 20th December 2012.",
+      images: [borderYagna],
     },
     {
       year: "2013",
       title: "High-Altitude Military Support",
       description: "The Cholan prince visited Indian borders at Ladakh, Tawang and Kargil and conducted Rajasuya Maha Yagna at army camps under supervision and support of Indian army. The fire rituals were conducted for the well being of our soldiers at the borders and to create an energy shield to protect borders from enemy attacks. Mr. Amithaab also discussed problems faced by Indian army at such high altitudes and rough climatic conditions.",
+      images: [armyCamps],
     },
     {
       year: "2014",
       title: "Year of Continuous Cosmic Energy",
       description: "Mr. Amithaab and his team were involved in Rajasuya Mahayagna for the entire year of 2014. A reservoir of Cosmo energy was formed by the continuous fire rituals which served to manifest positive energies around the globe. Many major mishaps that might have led to loss of many lives were prevented through this sustained spiritual effort.",
+      images: [chitradurgaFort, panchaPativrata],
     },
     {
       year: "2015",
       title: "J&K Temple Construction",
       description: "Amithaab ji and his team visited Jammu & Kashmir in April and built a temple of Adi Rakshana Jwala Narasimhini Prathyangire and Adi Rakshana Jwala Narasimha at Dalair in Jammu. The temple was built on a site previously destroyed by a terror attack. He also met with J&K police officers and discussed issues faced by the natives.",
+      images: [jammuTemple],
     },
     {
       year: "2016",

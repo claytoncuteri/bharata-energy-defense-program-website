@@ -12,25 +12,17 @@ export default function Footer() {
               Quick Links
             </h3>
             <div className="space-y-2">
-              <Link href="/executive">
-                <a className="block text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-executive">
-                  Executive Summary
-                </a>
+              <Link href="/executive" className="block text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-executive">
+                Executive Summary
               </Link>
-              <Link href="/past-timeline">
-                <a className="block text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-timeline">
-                  Past Timeline
-                </a>
+              <Link href="/past-timeline" className="block text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-timeline">
+                Past Timeline
               </Link>
-              <Link href="/downloads">
-                <a className="block text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-downloads">
-                  Downloads
-                </a>
+              <Link href="/downloads" className="block text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-downloads">
+                Downloads
               </Link>
-              <Link href="/contact">
-                <a className="block text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-contact">
-                  Contact Us
-                </a>
+              <Link href="/contact" className="block text-sm text-muted-foreground hover:text-primary transition-colors" data-testid="link-footer-contact">
+                Contact Us
               </Link>
             </div>
           </div>
