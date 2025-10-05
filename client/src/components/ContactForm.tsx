@@ -1,7 +1,6 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
+import { useMutation } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -15,22 +14,14 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-
-const contactFormSchema = z.object({
-  name: z.string().min(2, "Name must be at least 2 characters"),
-  email: z.string().email("Please enter a valid email address"),
-  phone: z.string().optional(),
-  message: z.string().min(10, "Message must be at least 10 characters"),
-});
-
-type ContactFormValues = z.infer<typeof contactFormSchema>;
+import { insertContactSubmissionSchema, type InsertContactSubmission } from "@shared/schema";
+import { apiRequest } from "@/lib/queryClient";
 
 export default function ContactForm() {
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const form = useForm<ContactFormValues>({
-    resolver: zodResolver(contactFormSchema),
+  const form = useForm<InsertContactSubmission>({
+    resolver: zodResolver(insertContactSubmissionSchema),
     defaultValues: {
       name: "",
       email: "",
@@ -39,22 +30,28 @@ export default function ContactForm() {
     },
   });
 
-  const onSubmit = async (data: ContactFormValues) => {
-    setIsSubmitting(true);
-    
-    // TODO: Replace with actual API call when backend is ready
-    console.log("Form submitted:", data);
-    
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    toast({
-      title: "Message Sent Successfully",
-      description: "We will get back to you soon.",
-    });
-    
-    form.reset();
-    setIsSubmitting(false);
+  const submitMutation = useMutation({
+    mutationFn: async (data: InsertContactSubmission) => {
+      return apiRequest("POST", "/api/contact", data);
+    },
+    onSuccess: () => {
+      toast({
+        title: "Message Sent Successfully",
+        description: "We will get back to you soon.",
+      });
+      form.reset();
+    },
+    onError: (error: any) => {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    },
+  });
+
+  const onSubmit = (data: InsertContactSubmission) => {
+    submitMutation.mutate(data);
   };
 
   return (
@@ -116,6 +113,7 @@ export default function ContactForm() {
                       type="tel"
                       placeholder="+91 XXXXX XXXXX"
                       {...field}
+                      value={field.value ?? ""}
                       data-testid="input-phone"
                     />
                   </FormControl>
@@ -147,10 +145,10 @@ export default function ContactForm() {
               type="submit"
               size="lg"
               className="w-full"
-              disabled={isSubmitting}
+              disabled={submitMutation.isPending}
               data-testid="button-submit"
             >
-              {isSubmitting ? "Sending..." : "Send Message"}
+              {submitMutation.isPending ? "Sending..." : "Send Message"}
             </Button>
           </form>
         </Form>
