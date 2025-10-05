@@ -16,7 +16,7 @@ export default function Layout({ children }: LayoutProps) {
           <img
             src={letterheadImage}
             alt="Mother Sonia Gandhi World Welfare Committee - Unit of Akhila Vishw Bharathiya Seva Samaj Trust"
-            className="w-full max-w-4xl mx-auto rotate-[0.95deg]"
+            className="w-full max-w-4xl mx-auto rotate-[0.9deg]"
             data-testid="img-letterhead"
           />
         </div>
