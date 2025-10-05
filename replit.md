@@ -6,6 +6,16 @@ A multi-page promotional website for the Bharata Energy Defence Program by Chola
 
 The website features a comprehensive presentation of the program including executive summaries, detailed timelines (2005-2019), upcoming activities, convenor biography, cosmic explanations of spiritual technology, image galleries, downloadable PDF documents, and a contact form for inquiries.
 
+## Recent Changes
+
+**October 5, 2025 - Image Integration & Navigation Fixes:**
+- Fixed nested anchor tag issue in Footer component (Link components now properly styled without nested <a> tags)
+- Integrated 6 installation images into Appendix gallery with proper captions extracted from PDF
+- Added timeline images to Past Timeline events (2008, 2012, 2013, 2014, 2015)
+- Updated all image imports to use @assets alias for proper Vite bundling
+- Fixed Header letterhead watermark to use @assets import instead of direct path
+- All images display correctly with no console errors
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
