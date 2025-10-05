@@ -8,7 +8,8 @@ The website features a comprehensive presentation of the program including execu
 
 ## Recent Changes
 
-**October 5, 2025 - Image Integration & Navigation Fixes:**
+**October 5, 2025 - Letterhead Display & Image Integration:**
+- Added prominent letterhead display below header on all pages (centered, max-width 4xl)
 - Fixed nested anchor tag issue in Footer component (Link components now properly styled without nested <a> tags)
 - Integrated 6 installation images into Appendix gallery with proper captions extracted from PDF
 - Added timeline images to Past Timeline events (2008, 2012, 2013, 2014, 2015)
