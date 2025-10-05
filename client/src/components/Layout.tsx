@@ -11,7 +11,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="w-full border-b bg-[#FFF5E6]">
+      <div className="w-full border-b bg-white">
         <div className="container mx-auto px-4 py-3">
           <img
             src={letterheadImage}
