@@ -21,7 +21,7 @@ export default function Appendix() {
     },
     {
       src: "/placeholder-shivling.jpg",
-      caption: "Shiv Lingh Consecrations - 54 installations across national and international locations"
+      caption: "Shiva Lingha Consecrations - 54 installations across national and international locations"
     },
     {
       src: "/placeholder-meditation.jpg",
@@ -53,7 +53,7 @@ export default function Appendix() {
             </p>
             <p className="text-muted-foreground leading-relaxed" data-testid="text-installations-significance">
               From historical fortifications like Chitradurga to sacred temple complexes at Hebbya, each site serves 
-              as an anchor point for spiritual energy transmission. The installations include consecrated Shiv Linghs, 
+              as an anchor point for spiritual energy transmission. The installations include consecrated Shiva Linghas, 
               yagna kundalas (fire altars), and deity installations that work synergistically to create a protective 
               energy shield around our motherland while radiating positive vibrations globally.
             </p>

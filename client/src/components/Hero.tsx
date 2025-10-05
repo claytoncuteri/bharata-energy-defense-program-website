@@ -22,7 +22,7 @@ export default function Hero() {
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto mb-8 leading-relaxed" data-testid="text-hero-subtitle">
           Since 2005, Chola Mandala Mahaa Samsthaanam has conducted over 4500 Maha Yagnas, 
-          54 Shiv Lingh installations, and millions of tree plantations to protect our motherland 
+          54 Shiva Lingha installations, and millions of tree plantations to protect our motherland 
           and balance planetary energies.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

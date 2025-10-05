@@ -16,7 +16,7 @@ export default function ExecutiveSummary() {
             </p>
 
             <p className="text-lg leading-relaxed" data-testid="text-methods">
-              To achieve this grand vision, we employ both socio-political and spirituo-mystic processes such as 
+              To achieve this grand vision, we employ both socio-political and spiritual-mystic processes such as 
               Rajasooya Maha Yagnas, Vishwa Shanthi Parama Yagnas, mass visualization and education via main 
               stream media, spiritual meditative practices that activate the hidden astral and cosmic abilities of 
               human beings.
@@ -24,7 +24,7 @@ export default function ExecutiveSummary() {
 
             <p className="text-lg leading-relaxed" data-testid="text-achievements">
               Since 2005, following a divine ordainment, we have successfully conducted <strong>4500 Maha yagnas</strong>, around 
-              <strong> 54 Shiv lingh installations</strong>, multiple idol consecrations, launching of a mass media instrument, more than 
+              <strong> 54 Shiva Lingha installations</strong>, multiple idol consecrations, launching of a mass media instrument, more than 
               <strong> a million tree plantations</strong> & many socio cultural rejuvenations - at national & international locations.
             </p>
 

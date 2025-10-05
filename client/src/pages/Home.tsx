@@ -19,7 +19,7 @@ export default function Home() {
             <p className="text-lg text-muted-foreground leading-relaxed" data-testid="text-vision-description">
               Chola Mandala Mahaa Samsthaanam is a congregation of royal families, spiritual gurus, 
               and social activists dedicated to reestablishing Bharata in its full glory. Through 
-              spirituo-mystic processes and socio-political initiatives, we protect our motherland 
+              spiritual-mystic processes and socio-political initiatives, we protect our motherland 
               and balance planetary energies.
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
             />
             <HighlightCard
               icon={Building2}
-              title="54 Shiv Lingh Installations"
+              title="54 Shiva Lingha Installations"
               description="Temple consecrations and spiritual installations across national and international locations."
             />
             <HighlightCard
