@@ -32,10 +32,10 @@ export default function Header() {
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-4">
             <div className="flex flex-col">
-              <h1 className="text-xl md:text-2xl font-serif font-bold text-primary">
+              <h1 className="text-xl md:text-2xl font-serif font-bold text-primary whitespace-nowrap">
                 Bharata Energy Defence Program
               </h1>
-              <p className="text-xs md:text-sm text-muted-foreground hidden sm:block">
+              <p className="text-xs md:text-sm text-muted-foreground hidden sm:block whitespace-nowrap">
                 Chola Mandala Mahaa Samsthaanam | Chief Convenor: Prince A Amithaab
               </p>
             </div>
