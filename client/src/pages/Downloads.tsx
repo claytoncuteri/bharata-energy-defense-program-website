@@ -4,13 +4,13 @@ import { FileText, Download } from "lucide-react";
 
 export default function Downloads() {
   return (
-    <div className="min-h-screen py-16 md:py-24 bg-background">
+    <div className="min-h-screen py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4" data-testid="text-page-title">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3" data-testid="text-page-title">
             Downloads
           </h1>
-          <p className="text-lg text-muted-foreground mb-12" data-testid="text-page-subtitle">
+          <p className="text-lg text-muted-foreground mb-8" data-testid="text-page-subtitle">
             Access our comprehensive documentation and proposal materials
           </p>
 
@@ -63,8 +63,8 @@ export default function Downloads() {
           </div>
 
           {/* Additional Information */}
-          <div className="mt-12 bg-card rounded-lg p-8">
-            <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-additional-info-title">
+          <div className="mt-10 bg-card rounded-lg p-6">
+            <h2 className="text-2xl font-serif font-semibold mb-3" data-testid="text-additional-info-title">
               For Official Inquiries
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-additional-info-content">

@@ -17,10 +17,10 @@ export default function Hero() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 tracking-tight" data-testid="text-hero-title">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-4 tracking-tight" data-testid="text-hero-title">
           Protecting Bharata Through Spiritual Energy
         </h1>
-        <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto mb-8 leading-relaxed" data-testid="text-hero-subtitle">
+        <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto mb-6 leading-relaxed" data-testid="text-hero-subtitle">
           Since 2005, Chola Mandala Mahaa Samsthaanam has conducted over 4500 Maha Yagnas, 
           54 Shiva Lingha installations, and millions of tree plantations to protect our motherland 
           and balance planetary energies.

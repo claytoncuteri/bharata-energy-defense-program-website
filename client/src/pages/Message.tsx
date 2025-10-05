@@ -4,18 +4,18 @@ import { Download, Mail } from "lucide-react";
 
 export default function Message() {
   return (
-    <div className="min-h-screen py-16 md:py-24 bg-background">
+    <div className="min-h-screen py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-8" data-testid="text-page-title">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6" data-testid="text-page-title">
             Message to the Reader
           </h1>
 
-          <div className="space-y-8">
+          <div className="space-y-6">
             {/* Main Message */}
             <div className="prose prose-lg max-w-none">
-              <div className="bg-gradient-to-br from-primary/10 via-chart-2/10 to-chart-1/10 rounded-lg p-8 mb-8">
-                <h2 className="text-3xl font-serif font-bold mb-6 text-primary" data-testid="text-call-to-action-title">
+              <div className="bg-gradient-to-br from-primary/10 via-chart-2/10 to-chart-1/10 rounded-lg p-6 mb-6">
+                <h2 className="text-3xl font-serif font-bold mb-4 text-primary" data-testid="text-call-to-action-title">
                   A Sacred Call to Action
                 </h2>
                 <p className="text-lg leading-relaxed mb-6" data-testid="text-message-1">
@@ -38,8 +38,8 @@ export default function Message() {
               </div>
 
               {/* Nuclear Prevention */}
-              <div className="bg-card rounded-lg p-8 mb-8">
-                <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-nuclear-prevention-title">
+              <div className="bg-card rounded-lg p-6 mb-6">
+                <h2 className="text-2xl font-serif font-semibold mb-3" data-testid="text-nuclear-prevention-title">
                   Nuclear War Prevention Through Spiritual Energy
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-nuclear-prevention-1">
@@ -57,8 +57,8 @@ export default function Message() {
               </div>
 
               {/* Temple Proposal */}
-              <div className="bg-card rounded-lg p-8 mb-8">
-                <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-temple-proposal-title">
+              <div className="bg-card rounded-lg p-6 mb-6">
+                <h2 className="text-2xl font-serif font-semibold mb-3" data-testid="text-temple-proposal-title">
                   The Temple Project: A National Priority
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-temple-proposal-1">
@@ -75,11 +75,11 @@ export default function Message() {
               </div>
 
               {/* Closing Appeal */}
-              <div className="text-center bg-gradient-to-r from-primary/20 to-chart-1/20 rounded-lg p-8">
-                <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-closing-title">
+              <div className="text-center bg-gradient-to-r from-primary/20 to-chart-1/20 rounded-lg p-6">
+                <h2 className="text-2xl font-serif font-semibold mb-3" data-testid="text-closing-title">
                   Join Us in Protecting Bharata
                 </h2>
-                <p className="text-lg text-muted-foreground mb-8" data-testid="text-closing-message">
+                <p className="text-lg text-muted-foreground mb-6" data-testid="text-closing-message">
                   Whether through financial support, spiritual participation in our yagnas, or spreading awareness 
                   of this critical work – your involvement can help save not just our nation, but our entire planet. 
                   The time for action is now.

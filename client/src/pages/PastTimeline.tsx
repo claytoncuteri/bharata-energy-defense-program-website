@@ -81,13 +81,13 @@ export default function PastTimeline() {
   ];
 
   return (
-    <div className="min-h-screen py-16 md:py-24 bg-background">
+    <div className="min-h-screen py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4" data-testid="text-page-title">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3" data-testid="text-page-title">
             Past Timeline (2005-2019)
           </h1>
-          <p className="text-lg text-muted-foreground mb-12" data-testid="text-page-subtitle">
+          <p className="text-lg text-muted-foreground mb-8" data-testid="text-page-subtitle">
             A comprehensive journey of our spiritual and social activities protecting Bharata
           </p>
 

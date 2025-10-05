@@ -1,14 +1,14 @@
 export default function Convenor() {
   return (
-    <div className="min-h-screen py-16 md:py-24 bg-background">
+    <div className="min-h-screen py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-12" data-testid="text-page-title">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-8" data-testid="text-page-title">
             About the Chief Convenor
           </h1>
 
           {/* Main Bio Section */}
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="md:col-span-1">
               <div className="aspect-square bg-gradient-to-br from-primary/20 to-chart-1/20 rounded-lg flex items-center justify-center">
                 <div className="text-center p-6">
@@ -21,9 +21,9 @@ export default function Convenor() {
               </div>
             </div>
 
-            <div className="md:col-span-2 space-y-6">
+            <div className="md:col-span-2 space-y-4">
               <div>
-                <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-biography-title">Biography</h2>
+                <h2 className="text-2xl font-serif font-semibold mb-3" data-testid="text-biography-title">Biography</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-biography-1">
                   Prince A Amithaab is a spiritual leader, social reformer, and the Chief Convenor of Chola Mandala 
                   Mahaa Samsthaanam. Following divine ordainment in 2005, he founded 'Akhila Vishw Bharathiya Seva 
@@ -47,8 +47,8 @@ export default function Convenor() {
           </div>
 
           {/* Royal Lineage */}
-          <div className="bg-card rounded-lg p-8 mb-12">
-            <h2 className="text-2xl font-serif font-semibold mb-6" data-testid="text-lineage-title">
+          <div className="bg-card rounded-lg p-6 mb-8">
+            <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-lineage-title">
               Royal Lineage & Spiritual Heritage
             </h2>
             <div className="space-y-4">
@@ -72,10 +72,10 @@ export default function Convenor() {
 
           {/* Key Qualities */}
           <div>
-            <h2 className="text-2xl font-serif font-semibold mb-6" data-testid="text-qualities-title">
+            <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-qualities-title">
               Key Qualities & Achievements
             </h2>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-4">
               <div className="border-l-4 border-primary pl-6 py-4">
                 <h3 className="text-lg font-semibold mb-2" data-testid="text-quality-spiritual">Spiritual Mastery</h3>
                 <p className="text-sm text-muted-foreground">

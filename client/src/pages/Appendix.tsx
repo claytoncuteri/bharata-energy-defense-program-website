@@ -29,20 +29,20 @@ export default function Appendix() {
   ];
 
   return (
-    <div className="min-h-screen py-16 md:py-24 bg-background">
+    <div className="min-h-screen py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4" data-testid="text-page-title">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3" data-testid="text-page-title">
             Appendix
           </h1>
-          <p className="text-lg text-muted-foreground mb-12" data-testid="text-page-subtitle">
+          <p className="text-lg text-muted-foreground mb-8" data-testid="text-page-subtitle">
             Visual documentation of our spiritual installations and energy centers across Bharata
           </p>
 
           <ImageGallery images={installations} />
 
-          <div className="mt-16 bg-card rounded-lg p-8">
-            <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-installations-title">
+          <div className="mt-12 bg-card rounded-lg p-6">
+            <h2 className="text-2xl font-serif font-semibold mb-3" data-testid="text-installations-title">
               Installations and Consecrations
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-installations-description">

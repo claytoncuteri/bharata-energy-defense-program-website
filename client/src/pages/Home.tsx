@@ -10,10 +10,10 @@ export default function Home() {
       <Hero />
 
       {/* Vision Section */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-10 md:py-16 bg-background">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6" data-testid="text-vision-title">
+          <div className="max-w-4xl mx-auto text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4" data-testid="text-vision-title">
               Our Vision
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed" data-testid="text-vision-description">
@@ -27,12 +27,12 @@ export default function Home() {
       </section>
 
       {/* Key Achievements */}
-      <section className="py-16 md:py-24 bg-card">
+      <section className="py-10 md:py-16 bg-card">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-12" data-testid="text-achievements-title">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-8" data-testid="text-achievements-title">
             Key Achievements Since 2005
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <HighlightCard
               icon={Flame}
               title="4500+ Maha Yagnas"
@@ -68,12 +68,12 @@ export default function Home() {
       </section>
 
       {/* Timeline Highlights */}
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-10 md:py-16 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-12" data-testid="text-timeline-highlights-title">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-8" data-testid="text-timeline-highlights-title">
             Major Milestones
           </h2>
-          <div className="max-w-4xl mx-auto space-y-8">
+          <div className="max-w-4xl mx-auto space-y-6">
             <div className="border-l-4 border-primary pl-6 py-4">
               <h3 className="text-xl font-semibold mb-2" data-testid="text-milestone-2005">2005 - Foundation</h3>
               <p className="text-muted-foreground">
@@ -107,12 +107,12 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-primary/10 via-chart-2/10 to-chart-1/10">
+      <section className="py-10 md:py-16 bg-gradient-to-br from-primary/10 via-chart-2/10 to-chart-1/10">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6" data-testid="text-cta-title">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4" data-testid="text-cta-title">
             Join Our Mission
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8" data-testid="text-cta-description">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-6" data-testid="text-cta-description">
             Support the Bharata Energy Defence Program in protecting our nation through spiritual power. 
             With just 0.000001% of the national defense budget, we can achieve complete protection 
             and planetary balance.

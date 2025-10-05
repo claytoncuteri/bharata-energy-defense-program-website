@@ -3,29 +3,29 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen py-16 md:py-24 bg-background">
+    <div className="min-h-screen py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4" data-testid="text-page-title">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3" data-testid="text-page-title">
             Contact Us
           </h1>
-          <p className="text-lg text-muted-foreground mb-12" data-testid="text-page-subtitle">
+          <p className="text-lg text-muted-foreground mb-8" data-testid="text-page-subtitle">
             Get in touch with us for inquiries, support, or collaboration opportunities
           </p>
 
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-6">
             {/* Contact Form */}
             <div className="lg:col-span-2">
               <ContactForm />
             </div>
 
             {/* Contact Information */}
-            <div className="space-y-6">
+            <div className="space-y-4">
               <div className="bg-card rounded-lg p-6">
-                <h3 className="text-xl font-serif font-semibold mb-6" data-testid="text-contact-info-title">
+                <h3 className="text-xl font-serif font-semibold mb-4" data-testid="text-contact-info-title">
                   Contact Information
                 </h3>
-                <div className="space-y-6">
+                <div className="space-y-4">
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-md bg-primary/10 flex items-center justify-center flex-shrink-0">
                       <MapPin className="w-5 h-5 text-primary" />

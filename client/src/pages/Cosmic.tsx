@@ -1,16 +1,16 @@
 export default function Cosmic() {
   return (
-    <div className="min-h-screen py-16 md:py-24 bg-background">
+    <div className="min-h-screen py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-8" data-testid="text-page-title">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6" data-testid="text-page-title">
             Cosmic Explanations
           </h1>
-          <p className="text-lg text-muted-foreground mb-12" data-testid="text-page-subtitle">
+          <p className="text-lg text-muted-foreground mb-8" data-testid="text-page-subtitle">
             Understanding the spiritual technology and cosmic mechanisms behind our work
           </p>
 
-          <div className="space-y-8">
+          <div className="space-y-6">
             {/* Spiritual Technology */}
             <div className="prose prose-lg max-w-none">
               <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-spiritual-tech-title">
@@ -33,8 +33,8 @@ export default function Cosmic() {
             </div>
 
             {/* Cosmic Beings */}
-            <div className="bg-gradient-to-br from-chart-1/10 to-primary/10 rounded-lg p-8">
-              <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-cosmic-beings-title">
+            <div className="bg-gradient-to-br from-chart-1/10 to-primary/10 rounded-lg p-6">
+              <h2 className="text-2xl font-serif font-semibold mb-3" data-testid="text-cosmic-beings-title">
                 Extraterrestrial Beings as Devathas
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6" data-testid="text-cosmic-beings-content">
@@ -76,7 +76,7 @@ export default function Cosmic() {
             </div>
 
             {/* Call to Understanding */}
-            <div className="bg-card rounded-lg p-8 text-center mt-12">
+            <div className="bg-card rounded-lg p-6 text-center mt-8">
               <p className="text-lg italic text-muted-foreground" data-testid="text-closing-quote">
                 "When science and spirituality unite, when ancient wisdom meets modern understanding, 
                 humanity unlocks its true potential for planetary stewardship and cosmic citizenship."

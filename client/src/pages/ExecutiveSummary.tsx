@@ -1,13 +1,13 @@
 export default function ExecutiveSummary() {
   return (
-    <div className="min-h-screen py-16 md:py-24">
+    <div className="min-h-screen py-10 md:py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-8" data-testid="text-page-title">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-6" data-testid="text-page-title">
             Executive Summary
           </h1>
 
-          <div className="prose prose-lg max-w-none space-y-6 text-foreground">
+          <div className="prose prose-lg max-w-none space-y-4 text-foreground">
             <p className="text-lg leading-relaxed" data-testid="text-intro">
               Chola Mandala Mahaa Samsthaanam is a congregation of royal families, spiritual gurus and social 
               activists who envisage reestablishing Bharata (currently known as India) in its full glory. We shall do this 
@@ -28,8 +28,8 @@ export default function ExecutiveSummary() {
               <strong> a million tree plantations</strong> & many socio cultural rejuvenations - at national & international locations.
             </p>
 
-            <div className="bg-card rounded-lg p-6 my-8">
-              <h2 className="text-2xl font-serif font-semibold mb-4" data-testid="text-capabilities-title">Our Demonstrated Capabilities</h2>
+            <div className="bg-card rounded-lg p-6 my-6">
+              <h2 className="text-2xl font-serif font-semibold mb-3" data-testid="text-capabilities-title">Our Demonstrated Capabilities</h2>
               <p className="mb-4" data-testid="text-capabilities-intro">
                 Our yagnas and processes have very deep mystic connection with the political, economic, social and 
                 environmental activities across the planet. We have enabled:
@@ -49,8 +49,8 @@ export default function ExecutiveSummary() {
               establishes the scientific nature of our mystic instruments.
             </p>
 
-            <div className="bg-primary/10 rounded-lg p-8 my-8">
-              <h2 className="text-2xl font-serif font-semibold mb-4 text-primary" data-testid="text-pledge-title">Our Pledge to Bharata</h2>
+            <div className="bg-primary/10 rounded-lg p-6 my-6">
+              <h2 className="text-2xl font-serif font-semibold mb-3 text-primary" data-testid="text-pledge-title">Our Pledge to Bharata</h2>
               <p className="text-lg leading-relaxed" data-testid="text-pledge-content">
                 In light of the recent terrorist and military attacks on the Indian army, the Mahaa Samsthaanam has 
                 pledged to offer our mystic and psychic abilities in a professional manner to aid the goings-on and 
@@ -61,7 +61,7 @@ export default function ExecutiveSummary() {
               </p>
             </div>
 
-            <p className="text-lg leading-relaxed italic text-center mt-8" data-testid="text-closing">
+            <p className="text-lg leading-relaxed italic text-center mt-6" data-testid="text-closing">
               This dossier explains in detail about our journey so far and also serves as a blue print for our upcoming 
               activities.
             </p>
