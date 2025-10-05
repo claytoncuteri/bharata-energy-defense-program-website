@@ -33,7 +33,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden xl:flex items-center gap-1">
             <Link href="/">
               <Button
                 variant={isActive("/") ? "default" : "ghost"}
@@ -166,7 +166,7 @@ export default function Header() {
           <Button
             variant="ghost"
             size="icon"
-            className="lg:hidden"
+            className="xl:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             data-testid="button-mobile-menu"
           >
@@ -176,7 +176,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="lg:hidden pb-4 space-y-2">
+          <div className="xl:hidden pb-4 space-y-2">
             <Link href="/">
               <Button
                 variant="ghost"
