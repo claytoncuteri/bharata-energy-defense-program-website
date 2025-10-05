@@ -14,7 +14,7 @@ export default function Downloads() {
             Access our comprehensive documentation and proposal materials
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="max-w-2xl mx-auto">
             {/* Main Proposal */}
             <Card className="hover-elevate transition-all duration-200 hover:shadow-lg">
               <CardHeader>
@@ -56,51 +56,6 @@ export default function Downloads() {
                   <Button className="w-full" size="lg" data-testid="button-download-main-proposal">
                     <Download className="mr-2 w-5 h-5" />
                     Download Proposal
-                  </Button>
-                </a>
-              </CardContent>
-            </Card>
-
-            {/* Letterhead Document */}
-            <Card className="hover-elevate transition-all duration-200 hover:shadow-lg">
-              <CardHeader>
-                <div className="w-16 h-16 rounded-md bg-chart-2/10 flex items-center justify-center mb-4">
-                  <FileText className="w-8 h-8 text-chart-2" />
-                </div>
-                <CardTitle className="text-2xl font-serif" data-testid="text-letterhead-title">
-                  Official Letterhead
-                </CardTitle>
-                <CardDescription className="text-base mt-2" data-testid="text-letterhead-subtitle">
-                  Organization Header Document
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-6 leading-relaxed" data-testid="text-letterhead-description">
-                  Official letterhead of Mother Sonia Gandhi World Welfare Committee, a unit of Akhila Vishw 
-                  Bharathiya Seva Samaj Trust. This document contains our organizational identity, contact 
-                  information, and official correspondence format for reference and communication purposes.
-                </p>
-                <div className="space-y-3 mb-6">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">File Format:</span>
-                    <span className="font-medium">PDF</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">File Size:</span>
-                    <span className="font-medium">~0.3 MB</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Pages:</span>
-                    <span className="font-medium">1</span>
-                  </div>
-                </div>
-                <a 
-                  href="/attached_assets/sonia gandhi letter head_1759626759877.pdf" 
-                  download
-                >
-                  <Button className="w-full" size="lg" variant="outline" data-testid="button-download-letterhead">
-                    <Download className="mr-2 w-5 h-5" />
-                    Download Letterhead
                   </Button>
                 </a>
               </CardContent>
