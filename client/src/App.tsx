@@ -14,6 +14,7 @@ import Appendix from "@/pages/Appendix";
 import Message from "@/pages/Message";
 import Downloads from "@/pages/Downloads";
 import Contact from "@/pages/Contact";
+import Admin from "@/pages/Admin";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -30,6 +31,7 @@ function Router() {
         <Route path="/message" component={Message} />
         <Route path="/downloads" component={Downloads} />
         <Route path="/contact" component={Contact} />
+        <Route path="/admin" component={Admin} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
